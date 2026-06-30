@@ -22,6 +22,8 @@ How do you build reliable workflows instead of relying on vibe coding?
 
 This repository exists to answer those questions through experiments, evidence and continuous refinement.
 
+> **This repository captures reusable engineering knowledge—not project-specific decisions. Every document should help someone build better software, regardless of the product, framework or programming language.**
+
 ---
 
 # Why this repository exists
