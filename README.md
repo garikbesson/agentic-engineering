@@ -64,7 +64,9 @@ we ask:
 
 If you're new to the repository, begin with the **Knowledge** section.
 
-It introduces the core engineering concepts that later evolve into playbooks, policies and reusable workflows.
+Knowledge articles introduce the engineering principles that the rest of the repository builds upon.
+
+Playbooks, policies and templates evolve from these foundational concepts.
 
 → [`knowledge/README.md`](knowledge/README.md)
 
@@ -82,6 +84,8 @@ Engineering Problem
 Engineering Decision
         ↓
 Generalization
+        ↓
+Engineering Principle
         ↓
 Knowledge
         ↓
