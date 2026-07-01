@@ -60,6 +60,16 @@ we ask:
 
 ---
 
+# Start Here
+
+If you're new to the repository, begin with the **Knowledge** section.
+
+It introduces the core engineering concepts that later evolve into playbooks, policies and reusable workflows.
+
+→ [`knowledge/README.md`](knowledge/README.md)
+
+---
+
 # The Core Principle
 
 Every document in this repository starts with a real engineering problem.
