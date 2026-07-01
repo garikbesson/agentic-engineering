@@ -20,114 +20,100 @@ How should knowledge be structured?
 
 How do you build reliable workflows instead of relying on vibe coding?
 
-This repository exists to answer those questions through experiments, evidence and continuous refinement.
+This repository exists to answer those questions through **practical engineering, reusable workflows and continuous refinement.**
 
 > **This repository captures reusable engineering knowledge—not project-specific decisions. Every document should help someone build better software, regardless of the product, framework or programming language.**
+
+> **Every document should answer a real engineering question that someone could encounter while building software. If a document doesn't help solve a practical engineering problem, it probably doesn't belong here.**
 
 ---
 
 # Why this repository exists
 
-AI coding is evolving faster than engineering best practices.
+AI coding is evolving faster than engineering practices.
 
 Every week we see:
 
-- new models
-- new coding agents
-- new frameworks
-- new workflows
+- new models;
+- new coding agents;
+- new frameworks;
+- new workflows.
 
-But much of the shared knowledge is based on opinions, isolated success stories or viral posts.
+But most shared knowledge still revolves around:
 
-This repository takes a different approach.
+- prompts;
+- tool comparisons;
+- isolated examples;
+- viral posts.
 
-Engineering practices should be built on evidence rather than anecdotes.
+Good engineering practices don't appear overnight.
+
+They evolve by building real software, solving real problems, refining workflows and learning from experience.
 
 Instead of asking:
 
-> "What prompt should I use?"
+> **"What prompt should I use?"**
 
 we ask:
 
-> "What workflow consistently produces better engineering outcomes?"
+> **"What engineering workflow should I follow?"**
 
 ---
 
 # The Core Principle
 
-Every recommendation in this repository follows the same lifecycle.
+Every document in this repository starts with a real engineering problem.
 
 ```text
-Observation
-    ↓
-Question
-    ↓
-Hypothesis
-    ↓
-Experiment
-    ↓
-Evidence
-    ↓
+Real Project
+        ↓
+Engineering Problem
+        ↓
+Engineering Decision
+        ↓
+Generalization
+        ↓
 Knowledge
-    ↓
-Policy
-    ↓
+        ↓
 Playbook
-    ↓
+        ↓
+Policy
+        ↓
 Automation
 ```
 
-Nothing becomes a best practice because someone said so.
+The goal is not to document a specific project.
 
-Every recommendation should have evidence behind it.
+The goal is to extract reusable engineering knowledge that can be applied across different products, teams and technology stacks.
 
 ---
 
 # What you'll find here
 
-This repository combines several types of engineering knowledge.
-
 ## 📚 Knowledge
 
-Concepts explained from an engineering perspective.
+Engineering concepts, principles and patterns.
 
 Examples:
 
 - Context Engineering
+- Product Workflows
+- Feature Specifications
 - Planning
 - Memory
 - MCP
 - Tool Calling
 - Multi-Agent Systems
-- Evals
 
 ---
 
-## 🧪 Research
+## 🌱 RFCs
 
-Questions that don't yet have clear answers.
+Ideas that are still evolving.
 
-Examples:
+RFCs are proposals for engineering practices, workflows or policies.
 
-- How much context is too much?
-- Should planning always happen before coding?
-- When do multiple agents outperform one?
-- Which review strategies catch the most defects?
-
----
-
-## 🔬 Experiments
-
-Reproducible experiments documenting:
-
-- hypothesis
-- setup
-- tools
-- prompts
-- observations
-- conclusions
-
-Experiments are evidence—not truth.
+They exist to collect discussion and feedback before becoming part of the knowledge base.
 
 ---
 
@@ -138,11 +124,11 @@ Practical workflows you can apply immediately.
 Examples:
 
 - Planning a Feature
-- Code Review
-- Refactoring
 - Architecture Review
+- Refactoring
+- Code Review
 - Bug Investigation
-- Building an MVP
+- Starting a New Project
 
 ---
 
@@ -152,24 +138,27 @@ Decision rules for humans and AI agents.
 
 Examples:
 
-- When should an agent stop and ask questions?
-- When is a refactor justified?
-- When should tests be generated?
-- When is additional context required?
+- When should planning happen?
+- When should an agent ask for clarification?
+- When is an ADR required?
+- When should context be expanded?
+- When is human approval required?
 
 ---
 
 ## 📦 Templates
 
-Ready-to-use engineering assets.
+Reusable engineering artifacts.
 
 Examples:
 
-- Technical Specs
-- ADRs
-- Planning Prompts
-- Review Prompts
-- Issue Templates
+- Product Workflow
+- Feature Specification
+- ADR
+- Task Breakdown
+- Planning Prompt
+- Review Prompt
+- Issue Template
 
 ---
 
@@ -177,10 +166,10 @@ Examples:
 
 This repository is designed to be useful for both:
 
-- software engineers learning modern AI-assisted development
-- software agents that consume structured engineering knowledge
+- software engineers learning modern AI-assisted development;
+- AI coding agents consuming structured engineering knowledge.
 
-The long-term goal is for this knowledge to power future tools such as CLIs, policy engines, MCP servers and autonomous engineering systems.
+As the repository evolves, its structure should become increasingly useful for both humans and software.
 
 ---
 
@@ -188,18 +177,18 @@ The long-term goal is for this knowledge to power future tools such as CLIs, pol
 
 This is intentionally **not**:
 
-- a prompt collection
-- an awesome list
-- documentation for one AI tool
-- a benchmark leaderboard
+- a prompt collection;
+- an awesome list;
+- documentation for one AI tool;
+- a benchmark leaderboard.
 
 It is an evolving engineering knowledge base.
 
 Some ideas will be wrong.
 
-Some experiments will fail.
+Some workflows will evolve.
 
-Some recommendations will change as better evidence emerges.
+Some recommendations will eventually be replaced by better ones.
 
 That's expected.
 
@@ -216,7 +205,7 @@ So should engineering knowledge.
 - Engineering teams defining internal practices
 - Tool builders
 - AI agent developers
-- Anyone interested in evidence-based software engineering
+- Anyone who wants to move beyond vibe coding
 
 ---
 
@@ -224,15 +213,19 @@ So should engineering knowledge.
 
 Contributions are welcome.
 
-The most valuable contributions are not opinions, but evidence:
+The best engineering practices emerge through shared experience.
 
-- experiments
-- measurements
-- reproducible workflows
-- real-world case studies
-- improvements backed by experience
+If you've developed a workflow, discovered a useful pattern or learned something while building software with AI, we'd love to hear about it.
 
-If you discovered something that consistently works—or consistently fails—we'd love to learn from it.
+Useful contributions include:
+
+- reusable workflows;
+- engineering patterns;
+- playbooks;
+- real-world examples;
+- design decisions;
+- lessons learned;
+- thoughtful discussions.
 
 ---
 
@@ -242,10 +235,12 @@ The repository is still in its early stages.
 
 Current priorities include:
 
-- foundational concepts
-- practical engineering playbooks
-- reproducible experiments
-- machine-readable knowledge structures
-- policy-driven engineering workflows
+- foundational engineering concepts;
+- reusable workflows;
+- practical playbooks;
+- structured engineering knowledge;
+- policy-driven development.
 
-The long-term vision is to build an open knowledge foundation for the next generation of AI-assisted software engineering.
+Long term, this repository aims to become a shared engineering handbook for the AI era.
+
+A place where practical workflows, patterns and engineering decisions continuously evolve through real-world use and community discussion.
