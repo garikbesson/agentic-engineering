@@ -12,10 +12,13 @@ The goal is to build a shared engineering vocabulary for both developers and AI 
 
 The following articles introduce the foundational concepts used throughout the repository.
 
-1. [**Product Workflows vs Feature Specifications**](product-workflows-vs-feature-specifications.md)
+1. [**Start With Orientation**](start-with-orientation.md)
+   Learn why every engineering system should provide a clear entry point before implementation begins.
+
+2. [**Product Workflows vs Feature Specifications**](product-workflows-vs-feature-specifications.md)
    Learn why product workflows should be defined before feature specifications.
 
-2. [**Reason Over Structured Knowledge**](reason-over-structured-knowledge.md)
+3. [**Reason Over Structured Knowledge**](reason-over-structured-knowledge.md)
    Learn why AI systems should perform reasoning on structured knowledge before generating artifacts.
 
 ---
@@ -24,6 +27,7 @@ The following articles introduce the foundational concepts used throughout the r
 
 ## Planning
 
+- ✅ [Start With Orientation](start-with-orientation.md)
 - ✅ [Product Workflows vs Feature Specifications](product-workflows-vs-feature-specifications.md)
 
 ## Knowledge Representation
