@@ -59,6 +59,19 @@ Keeping responsibilities separate makes the repository easier to navigate for bo
 
 # Current Documents
 
+## Repository Structure
+
+Explains how the repository is organized.
+
+Topics include:
+
+- responsibilities of each top-level directory;
+- how new knowledge enters the repository;
+- how to choose the right location for new content;
+- design principles behind the repository structure.
+
+---
+
 ## Writing Guidelines
 
 Defines how new content should be written.
