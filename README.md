@@ -90,7 +90,7 @@ The goal is to extract reusable engineering knowledge that can be applied across
 
 # What you'll find here
 
-## 📖 Documentation
+## 📖 [Documentation](docs/README.md)
 
 Documentation about this repository itself.
 
@@ -104,7 +104,7 @@ Examples:
 
 ---
 
-## 📚 Knowledge
+## 📚 [Knowledge](knowledge/README.md)
 
 Engineering concepts, principles and patterns.
 
@@ -121,7 +121,7 @@ Examples:
 
 ---
 
-## 🌱 RFCs
+## 🌱 [RFCs](rfcs/README.md)
 
 Ideas that are still evolving.
 
@@ -131,7 +131,7 @@ They exist to collect discussion and feedback before becoming part of the knowle
 
 ---
 
-## 🛠 Playbooks
+## 🛠 [Playbooks](playbooks/README.md)
 
 Practical workflows you can apply immediately.
 
@@ -146,7 +146,7 @@ Examples:
 
 ---
 
-## 📋 Policies
+## 📋 [Policies](policies/README.md)
 
 Decision rules for humans and AI agents.
 
@@ -160,7 +160,7 @@ Examples:
 
 ---
 
-## 📦 Templates
+## 📦 [Templates](templates/README.md)
 
 Reusable engineering artifacts.
 

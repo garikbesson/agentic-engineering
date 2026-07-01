@@ -2,7 +2,7 @@
 
 **Tags:** AI, Architecture, Knowledge Representation, Reasoning
 
-**Related:** `knowledge/product-workflows-vs-feature-specifications.md`
+**Related:** [`knowledge/product-workflows-vs-feature-specifications.md`](../knowledge/product-workflows-vs-feature-specifications.md)
 
 ---
 

@@ -59,7 +59,7 @@ Keeping responsibilities separate makes the repository easier to navigate for bo
 
 # Current Documents
 
-## Repository Structure
+## [Repository Structure](repository-structure.md)
 
 Explains how the repository is organized.
 
@@ -72,7 +72,7 @@ Topics include:
 
 ---
 
-## Writing Guidelines
+## [Writing Guidelines](writing-guideline.md)
 
 Defines how new content should be written.
 
