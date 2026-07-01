@@ -2,61 +2,17 @@
 
 > **An open engineering laboratory for AI-assisted software development.**
 
-Most resources about AI coding focus on prompts, tools or model comparisons.
+Most AI coding resources focus on prompts, tools or model comparisons.
 
 This repository focuses on something different:
 
 **engineering practices.**
 
-How do experienced engineers actually work with AI?
+How should software engineers and AI coding agents work together to build reliable software?
 
-How should an agent plan a feature?
+This repository captures reusable engineering knowledge through practical engineering, real-world experience and continuous refinement.
 
-When should it ask for clarification?
-
-How much context is enough?
-
-How should knowledge be structured?
-
-How do you build reliable workflows instead of relying on vibe coding?
-
-This repository exists to answer those questions through **practical engineering, reusable workflows and continuous refinement.**
-
-> **This repository captures reusable engineering knowledge—not project-specific decisions. Every document should help someone build better software, regardless of the product, framework or programming language.**
-
-> **Every document should answer a real engineering question that someone could encounter while building software. If a document doesn't help solve a practical engineering problem, it probably doesn't belong here.**
-
----
-
-# Why this repository exists
-
-AI coding is evolving faster than engineering practices.
-
-Every week we see:
-
-- new models;
-- new coding agents;
-- new frameworks;
-- new workflows.
-
-But most shared knowledge still revolves around:
-
-- prompts;
-- tool comparisons;
-- isolated examples;
-- viral posts.
-
-Good engineering practices don't appear overnight.
-
-They evolve by building real software, solving real problems, refining workflows and learning from experience.
-
-Instead of asking:
-
-> **"What prompt should I use?"**
-
-we ask:
-
-> **"What engineering workflow should I follow?"**
+> **Every document should answer a real engineering question. If it doesn't help solve a practical engineering problem, it probably doesn't belong here.**
 
 ---
 
@@ -69,6 +25,38 @@ Knowledge articles introduce the engineering principles that the rest of the rep
 Playbooks, policies and templates evolve from these foundational concepts.
 
 → [`knowledge/README.md`](knowledge/README.md)
+
+---
+
+# Why this repository exists
+
+AI coding is evolving faster than engineering practices.
+
+Every week brings new:
+
+- models;
+- coding agents;
+- frameworks;
+- workflows.
+
+But much of the shared knowledge still revolves around:
+
+- prompts;
+- tool comparisons;
+- isolated examples;
+- viral posts.
+
+Good engineering practices don't appear overnight.
+
+They emerge from building real software, solving real problems and continuously refining the way we work.
+
+Instead of asking:
+
+> **"What prompt should I use?"**
+
+we ask:
+
+> **"What engineering workflow should I follow?"**
 
 ---
 
