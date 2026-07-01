@@ -90,7 +90,7 @@ The goal is to extract reusable engineering knowledge that can be applied across
 
 # What you'll find here
 
-## 📖 Repository Docs
+## 📖 Documentation
 
 Documentation about this repository itself.
 
