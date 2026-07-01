@@ -1,91 +1,77 @@
 # Knowledge
 
-This directory contains reusable engineering knowledge.
+This section contains reusable engineering concepts for AI-assisted software development.
 
-Unlike playbooks or policies, documents in this directory focus on **understanding** rather than **execution**.
+Unlike playbooks or templates, knowledge articles explain **why** a particular engineering approach exists, **when** it should be used, and the trade-offs behind it.
 
-The goal is to explain engineering concepts, principles and patterns that help developers make better decisions while building software with AI.
-
----
-
-# Purpose
-
-Knowledge articles answer questions such as:
-
-- What is this concept?
-- Why does it matter?
-- When should I use it?
-- When should I avoid it?
-- How does it relate to other engineering concepts?
-
-The emphasis is on building understanding rather than prescribing a workflow.
+The goal is to build a shared engineering vocabulary for both developers and AI coding agents.
 
 ---
 
-# What belongs here
+# Getting Started
 
-Examples include:
+The following articles introduce the foundational concepts used throughout the repository.
 
-- Context Engineering
-- Product Workflows
-- Feature Specifications
-- Memory
-- Planning
-- Tool Calling
-- Multi-Agent Systems
-- Model Context
-- Human-in-the-Loop
+1. [**Product Workflows vs Feature Specifications**](product-workflows-vs-feature-specifications.md)
+   Learn why product workflows should be defined before feature specifications.
+
+2. [**Reason Over Structured Knowledge**](reason-over-structured-knowledge.md)
+   Learn why AI systems should perform reasoning on structured knowledge before generating artifacts.
 
 ---
 
-# What does NOT belong here
+# Browse by Topic
 
-This directory is **not** for:
+## Planning
 
-- step-by-step workflows → `playbooks/`
-- engineering decision rules → `policies/`
-- reusable document templates → `templates/`
-- repository documentation → `docs/`
-- early ideas and proposals → `rfcs/`
+- ✅ [Product Workflows vs Feature Specifications](product-workflows-vs-feature-specifications.md)
+
+## Knowledge Representation
+
+- ✅ [Reason Over Structured Knowledge](reason-over-structured-knowledge.md)
+
+## Context Engineering
+
+_Coming soon._
+
+## Memory
+
+_Coming soon._
+
+## Decision Making
+
+_Coming soon._
+
+## Policies
+
+_Coming soon._
+
+## Multi-Agent Systems
+
+_Coming soon._
+
+## Evaluation
+
+_Coming soon._
 
 ---
 
-# Writing Guidelines
+# Knowledge Lifecycle
 
-Every document should answer a real engineering question.
-
-Prefer explaining principles over describing specific tools.
-
-Use examples that can be applied across different domains rather than examples tied to a single product.
-
-A good knowledge article should still be useful even if today's AI tools no longer exist.
-
----
-
-# Relationship to Other Directories
+Every article begins with a real engineering problem.
 
 ```text
-Knowledge
+Engineering Problem
         ↓
-helps engineers understand concepts
-
-Playbooks
+Generalization
         ↓
-show how to apply those concepts
-
-Policies
+Knowledge Article
         ↓
-help decide when to apply them
-
-Templates
+Playbook
         ↓
-provide reusable artifacts
-
-RFCs
+Policy
         ↓
-explore ideas before they become knowledge
+Automation
 ```
 
-Understanding should come before execution.
-
-Knowledge provides the foundation that playbooks, policies and templates build upon.
+Knowledge is added only when an approach proves useful beyond a single project.
