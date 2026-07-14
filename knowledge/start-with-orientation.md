@@ -10,6 +10,10 @@ The goal is not to reduce information.
 
 The goal is to provide orientation.
 
+Orientation is not documentation for its own sake.
+
+Its purpose is to create a reusable mental model of the repository that can be shared across engineering sessions.
+
 ---
 
 ## Exploration
@@ -39,6 +43,8 @@ Exploration is reactive.
 The agent only learns after reading many files.
 
 ---
+
+
 
 ## Orientation
 
@@ -70,10 +76,13 @@ Orientation provides a mental model before implementation begins.
 
 ---
 
+
+
 ## Examples
 
 Good entry points include:
 
+- Repository Knowledge Base
 - README
 - Architecture Overview
 - Module Index
@@ -83,6 +92,8 @@ Good entry points include:
 - Onboarding Guide
 
 ---
+
+
 
 ## Why It Matters
 
@@ -94,10 +105,45 @@ Orientation helps both humans and AI agents:
 - find relevant context sooner;
 - make better engineering decisions.
 
+Over time, repository orientation can evolve into a reusable engineering asset rather than disposable documentation.
+
+A well-maintained Repository Knowledge Base can support:
+
+- engineering implementation;
+- debugging;
+- onboarding;
+- architectural reviews;
+- roadmap planning;
+- engineering task generation.
+
+Repository orientation is therefore not only a way to start engineering sessions—it can become shared engineering knowledge that evolves together with the project.
+
 ---
+
+
 
 ## Guiding Principle
 
 Every engineering system should have a clearly defined entry point.
 
 Reading should begin with understanding the system—not searching through it.
+
+Repository orientation should create reusable knowledge rather than temporary context.
+
+---
+
+
+
+## Research Status
+
+This engineering principle is currently being evaluated through real-world engineering projects.
+
+Initial experiments suggest that repository orientation provides value beyond implementation by creating reusable engineering knowledge that benefits both AI agents and human engineers.
+
+Further research is ongoing to better understand:
+
+- which repository artifacts provide the highest long-term value;
+- how Repository Knowledge should evolve as software changes;
+- how Repository Knowledge can be maintained automatically;
+- which engineering tasks benefit most from repository orientation.
+
