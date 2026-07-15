@@ -72,7 +72,11 @@ Relevant Context
 Implementation
 ```
 
-Orientation provides a mental model before implementation begins.
+Orientation should not be treated as a one-time activity.
+
+Whenever possible, the understanding gained during orientation should be captured as reusable Repository Knowledge.
+
+Unlike temporary session context, Repository Knowledge becomes a long-lived engineering asset that can support future engineering work.
 
 ---
 
@@ -80,14 +84,16 @@ Orientation provides a mental model before implementation begins.
 
 ## Examples
 
-Good entry points include:
+Repository orientation may be provided through one or more engineering artifacts.
+
+Examples include:
 
 - Repository Knowledge Base
 - README
 - Architecture Overview
 - Module Index
-- Knowledge Index
 - Repository Structure
+- Knowledge Index
 - Start Here
 - Onboarding Guide
 
