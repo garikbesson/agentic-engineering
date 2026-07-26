@@ -4,6 +4,12 @@ Your task is to update the existing Repository Knowledge Base to reflect the cur
 
 The Repository Knowledge Base should remain the primary source of repository orientation for future engineering sessions.
 
+> This playbook is self-contained.
+>
+> The article below explains the reasoning behind the playbook and is intended for readers who want additional background.
+>
+> - [Start with Orientation](../../knowledge/start-with-orientation.md)
+
 ## Objective
 
 Review the recent repository changes and update the existing Repository Knowledge Base accordingly.

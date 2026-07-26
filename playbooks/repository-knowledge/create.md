@@ -4,9 +4,11 @@ Your task is to build a reusable Repository Knowledge Base for this repository.
 
 Before making any implementation changes, inspect the repository and create a set of documents that help future engineering sessions quickly understand the project.
 
-Follow the engineering principle described in:
-
-[knowledge/start-with-orientation.md](../../knowledge/start-with-orientation.md)
+> This playbook is self-contained.
+>
+> The article below explains the reasoning behind the playbook and is intended for readers who want additional background.
+>
+> - [Start with Orientation](../../knowledge/start-with-orientation.md)
 
 ## Objective
 
