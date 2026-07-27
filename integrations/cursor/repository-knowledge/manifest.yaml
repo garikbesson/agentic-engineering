@@ -1,0 +1,6 @@
+id: repository-knowledge
+
+destination: .cursor/skills/repository-knowledge/
+
+files:
+  - SKILL.md
