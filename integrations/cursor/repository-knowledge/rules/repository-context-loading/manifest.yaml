@@ -1,0 +1,11 @@
+id: repository-context-loading
+
+type: rule
+
+tool: cursor
+
+install:
+  destination: .cursor/rules/repository-context-loading.mdc
+
+files:
+  - rule.md
