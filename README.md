@@ -1,6 +1,6 @@
 # Agentic Engineering
 
-> **An open engineering laboratory for AI-assisted software development.**
+> **An open engineering toolkit for AI-assisted software development.**
 
 Most AI coding resources focus on prompts, tools or model comparisons.
 
@@ -10,7 +10,9 @@ This repository focuses on something different:
 
 How should software engineers and AI coding agents work together to build reliable software?
 
-This repository captures reusable engineering knowledge through practical engineering, real-world experience and continuous refinement.
+This repository captures: 
+- reusable engineering knowledge through practical engineering, real-world experience and continuous refinement.
+- engineering practices executable by AI agents.
 
 > **Every document should answer a real engineering question. If it doesn't help solve a practical engineering problem, it probably doesn't belong here.**
 
@@ -18,13 +20,11 @@ This repository captures reusable engineering knowledge through practical engine
 
 # Start Here
 
-If you're new to the repository, begin with the **Knowledge** section.
+If you're new to the repository:
 
-Knowledge articles introduce the engineering principles that the rest of the repository builds upon.
-
-Playbooks, policies and templates evolve from these foundational concepts.
-
-→ [`knowledge/README.md`](knowledge/README.md)
+- Learn the core engineering concepts in [`knowledge/README.md`](knowledge/README.md).
+- Explore reusable engineering workflows in [`playbooks/README.md`](playbooks/README.md).
+- Install AI [`integrations/README.md`](integrations/README.md) to apply them in your own projects.
 
 ---
 
@@ -73,13 +73,13 @@ Engineering Decision
         ↓
 Generalization
         ↓
-Engineering Principle
-        ↓
 Knowledge
         ↓
 Playbook
         ↓
-Policy
+Integration
+        ↓
+AI Agent
         ↓
 Automation
 ```
@@ -123,16 +123,6 @@ Examples:
 
 ---
 
-## 🌱 [RFCs](rfcs/README.md)
-
-Ideas that are still evolving.
-
-RFCs are proposals for engineering practices, workflows or policies.
-
-They exist to collect discussion and feedback before becoming part of the knowledge base.
-
----
-
 ## 🛠 [Playbooks](playbooks/README.md)
 
 Practical workflows you can apply immediately.
@@ -148,17 +138,26 @@ Examples:
 
 ---
 
-## 📋 [Policies](policies/README.md)
+## 🔌 Integrations
 
-Decision rules for humans and AI agents.
+AI-tool-specific packages that connect engineering playbooks to coding agents.
 
 Examples:
 
-- When should planning happen?
-- When should an agent ask for clarification?
-- When is an ADR required?
-- When should context be expanded?
-- When is human approval required?
+- Cursor Skills
+- Cursor Rules
+- Future Claude Code integrations
+- Future Codex integrations
+
+---
+
+## 🌱 [RFCs](rfcs/README.md)
+
+Ideas that are still evolving.
+
+RFCs are proposals for engineering practices, workflows or policies.
+
+They exist to collect discussion and feedback before becoming part of the knowledge base.
 
 ---
 
@@ -183,7 +182,7 @@ Examples:
 This repository is designed to be useful for both:
 
 - software engineers learning modern AI-assisted development;
-- AI coding agents consuming structured engineering knowledge.
+- AI coding tools consuming structured engineering knowledge.
 
 As the repository evolves, its structure should become increasingly useful for both humans and software.
 

@@ -65,15 +65,21 @@ _Coming soon._
 Every article begins with a real engineering problem.
 
 ```text
+Real Project
+        ↓
 Engineering Problem
+        ↓
+Engineering Decision
         ↓
 Generalization
         ↓
-Knowledge Article
+Knowledge
         ↓
 Playbook
         ↓
 Integration
+        ↓
+AI Agent
         ↓
 Automation
 ```
