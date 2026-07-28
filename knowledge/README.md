@@ -73,7 +73,7 @@ Knowledge Article
         ↓
 Playbook
         ↓
-Policy
+Integrations
         ↓
 Automation
 ```
